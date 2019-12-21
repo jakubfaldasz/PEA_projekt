@@ -1,6 +1,6 @@
-#PEA Projekt
+# PEA Projekt
 
-##Wstęp
+## Wstęp
 
 Kod w repozytorium został napisany na potrzeby projektu z Projektowania Efektywnych Algorytmów.
 W ramach projektu zostały zaimplementowane algorytmy rozwiązujące metodami dokładnymi i heurystycznymi problem komiwojażera.
