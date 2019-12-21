@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build with Clang",
+      "type": "shell",
+      "command": "clang++",
+      "args": [
+        "-std=c++17",
+        "-stdlib=libc++",
+        "-g",
+        "src/main.cpp",
+        "-lncurses",
+        "src/AutomaticTest.cpp",
+        "src/BranchNBound.cpp",
+        "src/BruteForceSearch.cpp",
+        "src/DynamicProgramming.cpp",
+        "src/GeneticAlgorithm.cpp", 
+        "src/InstanceLoader.cpp",
+        "src/TSP.cpp",
+        "src/TabuSearch.cpp",
+        "src/Node.cpp",
+        "-o",
+        "out/main.out",
+        "--debug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

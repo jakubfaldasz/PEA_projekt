@@ -1,0 +1,7 @@
+problem_size, time[microseconds]
+10; 3.2
+11; 0.2
+12; 0
+13; 0
+14; 0
+15; 0.2
